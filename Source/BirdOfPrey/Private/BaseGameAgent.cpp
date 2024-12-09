@@ -87,7 +87,7 @@ void ABaseGameAgent::ApplyAgentInfo(const FSAgentInfo& Info)
 	
 }
 
-void ABaseGameAgent::AimAt(FVector TargetLocation)
+void ABaseGameAgent::AimAt(FVector AimTarget)
 {
 	
 }

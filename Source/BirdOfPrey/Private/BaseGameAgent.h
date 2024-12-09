@@ -62,7 +62,7 @@ public:
     void ApplyAgentInfo(const FSAgentInfo& Info);
 
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
-    void AimAt(FVector TargetLocation);
+    void AimAt(FVector AimTarget);
 
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
     void PlayDeathEffects();
@@ -70,30 +70,6 @@ public:
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
     void CheckForOutOfBounds();
 
-    // Components
-	/*
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    USkeletalMeshComponent* SkeletalMesh;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    UCapsuleComponent* Capsule;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    FVector WeaponSpawnOffset;
-
-    // Effects
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    UParticleSystem* DeathParticleEffect;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    USoundCue* DeathSoundCue;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    USoundCue* HitSoundCue;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
-    UParticleSystem* HitParticleEffect;
-*/
     // Variables
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BirdOfPrey")
     float MoveSpeed;
