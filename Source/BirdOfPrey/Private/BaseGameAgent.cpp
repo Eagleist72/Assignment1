@@ -32,3 +32,73 @@ void ABaseGameAgent::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
+void ABaseGameAgent::ChangeWeaponType()
+{
+	
+}
+
+FTransform ABaseGameAgent::GetWeaponSpawnTransform() const
+{
+	return FTransform();
+}
+
+void ABaseGameAgent::SpawnDefaultWeapon()
+{
+	
+}
+
+void ABaseGameAgent::StartFire()
+{
+	
+}
+
+void ABaseGameAgent::StopFire()
+{
+	
+}
+
+void ABaseGameAgent::TakeDamage(float DamageAmount)
+{
+	
+}
+
+bool ABaseGameAgent::IsAlive() const
+{
+	return false;
+}
+
+void ABaseGameAgent::Died()
+{
+	
+}
+
+void ABaseGameAgent::PlayHitEffects()
+{
+	
+}
+
+void ABaseGameAgent::CleanUp()
+{
+	
+}
+
+void ABaseGameAgent::ApplyAgentInfo(const FSAgentInfo& Info)
+{
+	
+}
+
+void ABaseGameAgent::AimAt(FVector TargetLocation)
+{
+	
+}
+
+void ABaseGameAgent::PlayDeathEffects()
+{
+	
+}
+
+void ABaseGameAgent::CheckForOutOfBounds()
+{
+
+}
+
