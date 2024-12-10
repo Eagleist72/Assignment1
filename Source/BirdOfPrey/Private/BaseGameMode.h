@@ -16,7 +16,7 @@ class ABaseGameMode : public AGameMode
 
 
 public:
-    // Constructor
+	
     ABaseGameMode();
 
     // Functions
@@ -41,8 +41,8 @@ public:
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
     float GetWorldScrollVelocity() const;
 
-    //UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
-	AWorldCameraActor* GetWorldCameraActor() const;
+    UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
+	void GetWorldCameraActor() const;
 
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
     float GetDistanceTravelled() const;

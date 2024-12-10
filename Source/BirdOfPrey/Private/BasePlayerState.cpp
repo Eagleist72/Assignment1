@@ -3,3 +3,15 @@
 
 #include "BasePlayerState.h"
 
+void ABasePlayerState::AddScore(float ScoreAmount)
+{
+}
+
+void ABasePlayerState::ConsumeLife()
+{
+}
+
+bool ABasePlayerState::HasRemainingLives() const
+{
+	return false;
+}

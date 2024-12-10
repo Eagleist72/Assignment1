@@ -44,7 +44,7 @@ public:
     void StopFire();
 
     UFUNCTION(BlueprintCallable, Category = "BirdOfPrey")
-    void TakeDamage(float DamageAmount);
+	virtual void TakeDamage(float DamageAmount);
 
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "BirdOfPrey")
     bool IsAlive() const;

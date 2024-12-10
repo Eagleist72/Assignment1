@@ -36,10 +36,10 @@ float ABaseGameMode::GetWorldScrollVelocity() const
 	return 0.0f;
 }
 
-AWorldCameraActor* ABaseGameMode::GetWorldCameraActor() const
+void ABaseGameMode::GetWorldCameraActor() const
 {
-	return nullptr;
 }
+
 
 float ABaseGameMode::GetDistanceTravelled() const
 {
